@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7B514475-1FC3-4112-B56E-5E98231C8F74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B4349AC3-F0A8-4BAA-B066-BEAD2C408C3C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LinqExpressionBuilder", "src\LinqExpressionBuilder\LinqExpressionBuilder.xproj", "{CBDB79B5-3E01-46F6-AD36-57206DAD9EB3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "LinqExpressionBuilderTest", "src\LinqExpressionBuilderTest\LinqExpressionBuilderTest.xproj", "{50DD7FD1-256B-46FE-8343-6716C0737BC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBDB79B5-3E01-46F6-AD36-57206DAD9EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDB79B5-3E01-46F6-AD36-57206DAD9EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDB79B5-3E01-46F6-AD36-57206DAD9EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDB79B5-3E01-46F6-AD36-57206DAD9EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DD7FD1-256B-46FE-8343-6716C0737BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DD7FD1-256B-46FE-8343-6716C0737BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DD7FD1-256B-46FE-8343-6716C0737BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DD7FD1-256B-46FE-8343-6716C0737BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBDB79B5-3E01-46F6-AD36-57206DAD9EB3} = {7B514475-1FC3-4112-B56E-5E98231C8F74}
+		{50DD7FD1-256B-46FE-8343-6716C0737BC8} = {7B514475-1FC3-4112-B56E-5E98231C8F74}
+	EndGlobalSection
+EndGlobal
